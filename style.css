@@ -1,0 +1,12 @@
+.small-icon {
+    height: 30px;
+    width: 30px;
+    opacity: .55;
+}
+
+.small-icon-2 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
