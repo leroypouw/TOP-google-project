@@ -87,7 +87,7 @@
 
 .buttons__button {
   height: 36px;
-  border: none;
+  border: 1px solid white;
   border-radius: 4px;
   padding: 0 16px;
   color: #5F6368;
