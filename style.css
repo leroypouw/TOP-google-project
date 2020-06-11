@@ -119,10 +119,11 @@
 }
 
 .footer {
-    position: fixed;
-    bottom: 0; /*jor kan jij uitleggen hoe dit werkt?*/
-    left: 0; /*jor kan jij uitleggen hoe dit werkt?*/
-    right: 0; /*jor kan jij uitleggen hoe dit werkt?*/
+    position: fixed; /* position fixed maakt het element relatief aan je viewport. */
+    bottom: 0; /* je plaatst het element dus onderaan je viewport. */
+    left: 0; /* je plaatst het element nu ook links van je viewport */
+    right: 0; /* nu zeg je dat het element ook rechts moet uitlijnen relatief aan de viewport.... */
+    /* ... doordat left en right allebei gezet zijn stretch je het helemaal uit; je kan right ook weglaten en width op 100% zetten. */
     background-color: #f2f2f2;
 }
 
