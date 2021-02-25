@@ -1,0 +1,336 @@
+.body {
+    margin: 0px;
+}
+
+.header {
+    margin-top: 8px;
+}
+
+.header__row__1 {
+    display: flex;
+}
+
+.header__row__1__left {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__row__1__right {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__item {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.searchbar {
+    display: flex;
+    border: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 24px;
+    width: 750px;
+    align-items: center;
+    padding: 10px;
+}
+
+.google__logo {
+    height: 40px;
+    padding-right: 50px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.divider__searchbar {
+    border-left: 1px solid lightgray;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.textfield {
+    border: 0px;
+    flex-basis: 100%;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.voice__search__icon {
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+}
+
+.google__search__icon__blue {
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+}
+
+.header__menu__icon {
+    height: 15px;
+    width: 15px;
+    opacity: 60%;
+}
+
+.header__account {
+    height: 30px;
+    width: 30px;
+    opacity: 60%;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.header__link {
+    display: flex;
+    align-items: center;
+}
+
+.header__row__2 {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+}
+
+.header__row__2__left {
+    margin-top: 5px;
+    margin-left: 225px;
+    margin-right: 75px;
+}
+
+.header__row__2__left a {
+    text-decoration: none;
+    color: black;
+    opacity: 80%;
+    padding: 0px 9px;
+}
+
+.header__row__2__left .all {
+    color: #1a73e8;    
+    padding-bottom: 12px;
+}
+
+.all {
+    border-bottom: 3px solid #1a73e8;
+}
+
+.header__row__2__right {
+    margin-top: 5px;
+    margin-right: 75px;
+}
+
+.header__row__2__right a {
+    text-decoration: none;
+    color: black;
+    opacity: 80%;
+    padding: 0px 9px;
+}
+
+.main {
+    width: 750px;
+    margin-left: 225px;
+}
+
+.results {
+    margin-top: 15px;
+    opacity: 80%;
+}
+
+.top__search__result {
+    margin-top: 30px;
+}
+
+.top__search__result p {
+    margin: 3px 0px 0px 0px;
+    line-height: 20px;
+}
+
+.results__link {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.main a:hover {
+    text-decoration: underline;        
+}
+
+.top__search__result__pages {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+.top__search__result__pages__container {
+    width: 40%;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.more__results__link {
+    margin-top: 20px;
+}
+
+
+h3 {
+    margin: 0px;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.search__result__container p {
+    margin: 3px 0px 0px 0px;
+}
+
+.people__also__ask {
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+
+.people__also__ask__title p {
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.people__also__ask__question p {
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    margin: 0;
+    line-height: 20px;
+}
+
+.search__results {
+    margin-top: 30px;
+}
+
+.search__result__container {
+   margin-bottom: 30px; 
+   line-height: 20px;
+}
+
+.website__url {
+    line-height: 20px;
+}
+
+.related__searches p {
+    font-size: 25px;
+}
+
+.related__searches__container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.related__searches__item {
+    width: 43%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #f0f0f5;
+    border-radius: 24px;
+    padding: 15px 0px 15px 30px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+}
+
+.google__search__icon__gray {
+    height: 20px;
+    width: 20px;
+    padding-right: 25px;
+}
+
+.related__searches__item a {
+    text-decoration: none;
+    color: black;
+}
+
+.related__searches__item a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.footer {
+    position: relative; /* position fixed maakt het element relatief aan je viewport. */
+    bottom: 0; /* je plaatst het element dus onderaan je viewport. */
+    left: 0; /* je plaatst het element nu ook links van je viewport */
+    right: 0; /* nu zeg je dat het element ook rechts moet uitlijnen relatief aan de viewport.... */
+    /* ... doordat left en right allebei gezet zijn stretch je het helemaal uit; je kan right ook weglaten en width op 100% zetten. */
+    background-color: #f2f2f2;
+    margin-top: 30px;
+}
+
+.footer__row__1 {
+    display: flex;
+    align-items: center;
+    color: #5F6368;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #e4e4e4;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 225px;
+}
+
+.location {
+    color: black;
+}
+
+.divider__footer {
+    border-left: 1px solid darkgray;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer__row__1__links {
+    margin-left: 3px;
+}
+
+.footer__row__1__links a:hover {
+    color: black;
+}
+
+.footer__row__2 {
+    border-top: 1px solid #e4e4e4;
+    margin-left: 225px;
+}
+
+.left_side {
+    display: inline-block;
+}
+
+.footer__links__row__1 {
+    text-decoration: none;
+    color: #5F6368;
+}
+
+.footer__links__row__2 {
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-right: 20px;
+    color: #5F6368;
+}
+
+.footer__row__2 a:hover {
+    color: black;
+}
